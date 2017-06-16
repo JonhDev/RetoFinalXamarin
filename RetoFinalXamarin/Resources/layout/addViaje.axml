@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <EditText android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+            android:hint="destino"
+            android:id="@+id/destinoedit"/>
+  <EditText android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+            android:hint="aerolinea"
+            android:id="@+id/aerolineaedit"/>
+  <EditText android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+            android:hint="fecha"
+            android:id="@+id/fechaedit"/>
+  <Button android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+          android:text="Agregar"
+            android:id="@+id/buttonadd"/>
+
+</LinearLayout>
